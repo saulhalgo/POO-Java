@@ -1,0 +1,9 @@
+package hbhjbvchcd;
+
+public class Cuenta {
+	String titular;
+	double cantidad;
+
+	
+	
+}

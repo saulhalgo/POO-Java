@@ -1,0 +1,15 @@
+package Encapsulamiento;
+
+public class Encapsulamiento {
+	public static void main(String[] args) {
+		Alumno alu = new Alumno();/*Marca error porque la clase Alumno 
+		tiene un argumento privado y recordemos que "private" no se 
+		puede usar en otras clases, solo en la suya*/
+		Alumno alu2 = new Alumno(15, "Saul", "Hidalgo");
+		
+		System.out.println("id: " + alu2.getId());
+		System.out.println("Nombre: " + alu2.getNombre());
+		System.out.println("Apellido: " + alu.getApellido());
+		
+	}
+}
